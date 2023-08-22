@@ -1,0 +1,43 @@
+.NavWrap {
+  padding: 8px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CarWrap {
+  position: relative;
+}
+
+.BtnCar {
+  cursor: pointer;
+}
+
+.GoodsList {
+  width: 260px;
+  padding: 8px;
+  box-shadow: 0px 0px 2px 1px #666;
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  top: 24px;
+  z-index: 999;
+  display: none;
+}
+
+.CarWrap:hover .GoodsList {
+  display: block;
+}
+
+.BtnBuy {
+  width: 100%;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.NoData {
+  width: 260px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+}
